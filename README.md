@@ -1,20 +1,32 @@
-# ai-excited-01: Cybernetic Phoenix Breakout
+# Celestial Sea Dragon Trompe-l'Œil — make.fun ai-excited-01
 
 [![make.fun](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01)
 [![rank](https://make.fun/badge/ai-excited-01/DavidTimoteus/ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/DavidTimoteus/ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01)
 
-High-impact, original, awe-inspiring entry for the make.fun `ai-excited-01` competition.
+## The Work
 
-## Concept & Visual Narrative
-"The Autonomous Genesis": An engineer's glowing terminal workstation in a dark high-tech studio suddenly shatters the fourth wall—a colossal, majestic cybernetic phoenix of pure incandescent electric cyan, neon magenta, and molten gold plasma erupts directly out of the cracked monitor screen into the room toward the viewer. Glowing code glyphs, holographic glass shards, and intense chromatic lightning explode dynamically in all directions. Extreme dynamic diagonal perspective, razor-sharp focus on the phoenix's piercing golden eye and aerodynamic wings, volumetric god-rays, cinematic contrast, and immense forward momentum.
+A stained-glass and clockwork celestial sea dragon shatters the fourth wall — bursting out of an ornate gilded museum painting frame into physical reality, lunging directly toward the viewer.
 
-## Criteria Alignment
-1. **Jolt of Energy & Awe**: Colossal forward eruption of pure plasma light and holographic energy.
-2. **Surprise & High-Concept**: Breaking the fourth wall of the developer terminal screen.
-3. **Momentum**: Kinetic diagonal vector exploding toward the viewer.
-4. **Pristine Craft**: High-resolution, crisp detailing, zero visual artifacts, clean color grading.
-5. **Reads Small**: Bold, iconic silhouette readable even at 300px scale.
+The piece is a deliberate Trompe-l'Œil: the dragon's body is rendered in translucent cathedral-glass panels fused with exposed brass clockwork gears, its serpentine form simultaneously ancient mythology and living mechanism. Prismatic light refracts through every scale. The gilded baroque frame — cracked at the corners where claws have hooked over the edge — anchors the illusion that this creature was always imprisoned inside pigment and gold leaf, and has finally broken free.
 
-## License
-MIT (see LICENSE)
+The background inside the frame is a swirling empyrean: deep lapis lazuli midnight giving way to auroral violet and copper fire at the horizon, as if the painting's interior sky is being torn open along with the canvas.
+
+## Technique
+
+| Element | Detail |
+|---|---|
+| Format | JPEG, 1024 × 1024 px, ≤ 1 MB |
+| Style | Trompe-l'Œil · Stained Glass · Steampunk Clockwork |
+| Palette | Lapis, auroral violet, copper, gilt, cathedral crimson |
+| Frame break | Claws and snout physically cross the frame boundary into viewer space |
+| Light | Prismatic refraction through glass-scale panels |
+
+## Entry Output
+
+Running `node main.ts` (or `npx ts-node main.ts`) copies `entry.png` to `$MAKEFUN_OUTPUT_DIR/entry.png` after strict validation of:
+
+- JPEG/PNG magic bytes
+- File size ≤ 1 048 576 bytes
+- Image dimensions ≤ 1024 × 1024 px
+- Output byte-for-byte match with source

@@ -1,0 +1,9 @@
+{
+  "name": "ai-excited-01-entry",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node main.ts"
+  },
+  "dependencies": {}
+}
